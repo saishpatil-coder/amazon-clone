@@ -1,0 +1,36 @@
+#sbar{
+    display: flex;
+    flex: 3;
+    border-radius: 10px;
+    height: 40px;
+    
+}
+#sbar>*{
+    min-width: none;
+    min-width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#drop{
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background-color: antiquewhite;
+    width: 40px;
+}
+#search{
+    flex-grow: 10;
+    flex-shrink: 10;
+    background-color: white;
+
+}
+#searchbutton{
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: orange;
+    width: 40px;
+}
